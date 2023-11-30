@@ -1,5 +1,5 @@
 pipeline{
-	agent{ docker { image 'maven:3.9.5-ibm-semeru-17-focal'}}
+	agent{ docker { image 'maven:3.9.5'}}
 	//agent any
 
 	stages{
